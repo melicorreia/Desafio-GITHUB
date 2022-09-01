@@ -1,0 +1,23 @@
+
+main {
+    height: 700px;
+    width: 100vw;
+    color: map-get($colores , "fucsia");
+    form {
+        color: map-get($colores , "crema");
+        background-color: map-get($colores , "fucsia");
+        padding: 10px 40px 20px 40px;
+        border-width: 5px;
+        border-color:map-get($colores , "crema");
+        border-style:solid;
+        border-radius: 10px;
+        width: 800px;
+    }
+    div {
+        img {
+             &hover {
+                transform: scale(1.05, 1.05);
+             }
+        }
+    }
+}

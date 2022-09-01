@@ -1,0 +1,8 @@
+nav {
+    background-color: map-get($colores , "rosa");
+    div {
+        a {
+            color: map-get($colores , "crema") !important;
+        }
+    }
+}
