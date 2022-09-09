@@ -6,7 +6,6 @@
 
 .font-just {
     font-family: 'Just Another Hand', cursive;
-    font-size: 4rem;
 }
 
 .font-roboto {
@@ -26,6 +25,7 @@
 }
 
 .btn:hover {
+    @extend .btn;
     background-color: map-get($colores , "crema");
     border-color: map-get($colores , "rosa");
     color: map-get($colores , "fucsia");
@@ -33,7 +33,7 @@
 
 .btn-wp {
     position: fixed;
-    bottom: 50px;
+    bottom: $margen/4;
     right: 20px;
     width: 4%;
     z-index: 10;
@@ -67,7 +67,7 @@
     border-style: none;
     border-radius: 10px;
     width: 1600px;
-    margin-top: 200px;
+    margin-top: $margen;
 }
 
 /* ESTILOS GALERIA */
@@ -86,10 +86,9 @@
 #main-conoceme {
     font-family: 'Just Another Hand', cursive;
     color:map-get($colores , "fucsia");
-    font-size: 3rem;
     margin: 50px;
     margin-top: 150px;
-    margin-bottom: 200px;
+    margin-bottom: $margen;
     width: 1800px;
 }
 
@@ -113,7 +112,7 @@
     #main-conoceme {
         display: flex;
         flex-direction: column;
-        padding: 200px;
+        padding: $margen;
     }
 
     #main-galeria {

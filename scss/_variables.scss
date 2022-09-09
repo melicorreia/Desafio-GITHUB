@@ -3,3 +3,10 @@ $colores: (
     "rosa" : #FFA2A1,
     "crema" : #FAFAD7,
 )
+
+$margen: 200px; 
+
+$mixin hover{
+    &hover {
+        transform: scale(1.05, 1.05);
+}
