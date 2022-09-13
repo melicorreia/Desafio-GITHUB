@@ -2,11 +2,14 @@ $colores: (
     "fucsia" : #FF4A6B, 
     "rosa" : #FFA2A1,
     "crema" : #FAFAD7,
-)
+);
 
-$margen: 200px; 
+$margen: 200px;
 
-$mixin hover{
-    &hover {
-        transform: scale(1.05, 1.05);
+$font-just: 'Just Another Hand', cursive;
+
+$font-roboto: 'Roboto', sans-serif;
+
+@mixin hover{
+    transform: scale(1.05, 1.05);
 }

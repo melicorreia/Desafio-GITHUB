@@ -4,5 +4,20 @@ nav {
         a {
             color: map-get($colores , "crema") !important;
         }
+        div {
+            ul {
+                li {
+                    &:hover {
+                        background-color: map-get($colores, "fucsia");
+                        border-style: none;
+                        border-radius: 20px;
+                    }
+                }
+            }
+
+        }
+
     }
 }
+
+

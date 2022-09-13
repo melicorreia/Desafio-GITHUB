@@ -1,19 +1,21 @@
+@import './reset';
+@import './variables';
 @import './body';
 @import './nav';
 @import './main';
 @import './footer';
-@import './variables';
+
+
+/* ESTILOS GENERALES */
+
 
 .font-just {
-    font-family: 'Just Another Hand', cursive;
+    font-family: $font-just;
+    font-size: 4rem;
 }
 
 .font-roboto {
-    font-family: 'Roboto', sans-serif;
-}
-
-.container {
-    width: 100vw;
+    font-family: $font-roboto;
 }
 
 .btn {
@@ -57,18 +59,6 @@
     margin-top: 120px;
 }
 
-/* ESTILOS SERVICIOS */
-
-.container-serv {
-    background-color: map-get($colores , "fucsia");
-    color: map-get($colores , "crema");
-    font-family: 'Roboto', sans-serif;
-    margin: 150px;
-    border-style: none;
-    border-radius: 10px;
-    width: 1600px;
-    margin-top: $margen;
-}
 
 /* ESTILOS GALERIA */
 
@@ -84,24 +74,22 @@
 /* ESTILOS CONOCEME */
 
 #main-conoceme {
-    font-family: 'Just Another Hand', cursive;
+    font-family: $font-just;
     color:map-get($colores , "fucsia");
     margin: 50px;
     margin-top: 150px;
     margin-bottom: $margen;
     width: 1800px;
+    height: $margen*2;
 }
 
 /* ESTILOS CONTACTO */
 
 #main-contacto {
-    font-family: 'Roboto', sans-serif;
+    font-family: $font-roboto;
     margin-top: 150px;
-    height: 850px;
+    height: 750px;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 

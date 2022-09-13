@@ -1,8 +1,9 @@
 
 main {
-    height: 700px;
+    height: $margen*3+150px;
     width: 100vw;
     color: map-get($colores , "fucsia");
+    margin-top: 50px;
     form {
         color: map-get($colores , "crema");
         background-color: map-get($colores , "fucsia");
@@ -15,8 +16,19 @@ main {
     }
     div {
         img {
-            @include hover;
+            &:hover {
+                @include hover;
             }
         }
     }
+    table {
+        background-color: map-get($colores , "fucsia");
+        color: map-get($colores , "crema") !important;
+        font-family: $font-roboto;
+        margin-top: $margen/6;
+        border-style: none;
+        border-radius: 10px;
+        width: $margen*5 !important;
+    }
 }
+
