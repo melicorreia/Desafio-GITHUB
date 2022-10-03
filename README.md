@@ -1,7 +1,7 @@
 <h1 align="center">Hola mi nombre es Melissa Correia 👋</h1>
 <h3 align="center">Soy estudiante de Desarrollo Web, vivo en Buenos Aires, Argentina</h3>
 
-- 🔭 Actualmente estoy trabajando en un proyecto para "Melissa Correia Photography" [Melissa Correia Photography](https://github.com/melicorreia/Desafio-GITHUB). Puedes acceder a la vista previa del sitio haciendo [click aquí](https://melicorreia.github.io/Desafio-GITHUB/)
+- 🔭 Actualmente estoy trabajando en un proyecto para [Melissa Correia Photography](https://github.com/melicorreia/Desafio-GITHUB). Puedes acceder a la vista previa del sitio haciendo [click aquí](https://melicorreia.github.io/Desafio-GITHUB/)
 
 - 🌱 Mientras sigo estudiando, en este momento aprendiendo **Javascript**
 
