@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #FAFAD7;
 }
@@ -8,11 +14,17 @@ nav {
 nav div a {
   color: #FAFAD7 !important;
 }
+nav div div ul li:hover {
+  background-color: #FF4A6B;
+  border-style: none;
+  border-radius: 20px;
+}
 
 main {
-  height: 700px;
+  height: 750px;
   width: 100vw;
   color: #FF4A6B;
+  margin-top: 50px;
 }
 main form {
   color: #FAFAD7;
@@ -24,13 +36,26 @@ main form {
   border-radius: 10px;
   width: 800px;
 }
+main div img:hover {
+  transform: scale(1.05, 1.05);
+}
+main table {
+  background-color: #FF4A6B;
+  color: #FAFAD7 !important;
+  font-family: "Roboto", sans-serif;
+  margin-top: 33.3333333333px;
+  border-style: none;
+  border-radius: 10px;
+  width: 1000px !important;
+}
 
 footer {
   background-color: #FFA2A1;
-  height: 30px;
+  height: 40px;
   color: #FAFAD7;
 }
 
+/* ESTILOS GENERALES */
 .font-just {
   font-family: "Just Another Hand", cursive;
   font-size: 4rem;
@@ -40,11 +65,7 @@ footer {
   font-family: "Roboto", sans-serif;
 }
 
-.container {
-  width: 100vw;
-}
-
-.btn {
+.btn, .btn:hover {
   background-color: #FFA2A1;
   border-width: 2px;
   border-color: #FAFAD7;
@@ -83,18 +104,6 @@ footer {
   margin-top: 120px;
 }
 
-/* ESTILOS SERVICIOS */
-.container-serv {
-  background-color: #FF4A6B;
-  color: #FAFAD7;
-  font-family: "Roboto", sans-serif;
-  margin: 150px;
-  border-style: none;
-  border-radius: 10px;
-  width: 1600px;
-  margin-top: 200px;
-}
-
 /* ESTILOS GALERIA */
 #main-galeria {
   padding: 20px;
@@ -105,40 +114,21 @@ footer {
   max-width: 1650px;
 }
 
-.transformacion:hover {
-  transform: scale(1.05, 1.05);
-}
-
 /* ESTILOS CONOCEME */
 #main-conoceme {
   font-family: "Just Another Hand", cursive;
   color: #FF4A6B;
-  font-size: 3rem;
   margin: 50px;
-  margin-top: 150px;
+  margin-top: 100px;
   margin-bottom: 200px;
   width: 1800px;
+  height: 400px;
 }
 
 /* ESTILOS CONTACTO */
 #main-contacto {
   font-family: "Roboto", sans-serif;
   margin-top: 150px;
-  height: 850px;
+  height: 750px;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-@media only screen and (max-width: 768px) {
-  #main-conoceme {
-    display: flex;
-    flex-direction: column;
-    padding: 200px;
-  }
-  #main-galeria {
-    display: flex;
-    flex-direction: column;
-  }
 }/*# sourceMappingURL=style.css.map */
